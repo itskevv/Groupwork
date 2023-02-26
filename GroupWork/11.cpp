@@ -5,10 +5,10 @@ class num
 {
 	public:
 		int a,b,sum;
-		num(int aa,int bb)
+		num()
 		{
-			a=aa;
-			b=bb;
+			cout<<"Enter two numbers: ";
+			cin>>a>>b;
 		}
 		~num()
 		{
@@ -23,9 +23,6 @@ class num
 };
 int main()
 {
-	int x,y;
-	cout<<"X and Y: ";
-	cin>>x>>y;
-	num a(x,y);
-	num	b(a);
+	num a;
+	num b(a);
 }
