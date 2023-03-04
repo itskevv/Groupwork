@@ -65,6 +65,7 @@ int main()
 	for(i=0;i<no;i++)
 	{
 		cout<<"Your name: "<<ma[i].name<<endl;
+		cout<<"Roll number: "<<ma[i].roll_no<<endl;
 		cout<<"Your marks: "<<ma[i].marks<<endl;
 	}
 		cout<<"Total average of the class: "<<t_avg/no;
