@@ -19,6 +19,7 @@ class num
 		{	
 			a=n.a*3;
 			b=n.b*3;
+			cout<<a+b;
 		}
 };
 int main()
