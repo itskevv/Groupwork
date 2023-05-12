@@ -1,0 +1,10 @@
+Private Sub Form_Load()
+Form1.Show
+For i = 1 To 7 Step 1
+    For j = 1 To i Step 1
+    Print i;
+    Next j
+Print
+Next i
+
+End Sub
