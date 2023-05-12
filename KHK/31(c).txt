@@ -1,0 +1,8 @@
+Private Sub form_activate()
+For i = 6 To 1 Step -1
+For j = 1 To i Step 1
+Print i;
+Next j
+Print
+Next i
+End Sub

@@ -1,0 +1,10 @@
+Private Sub form_activate()
+Dim n As Integer
+n = 1
+Do
+If (n Mod 5 <> 0) Then
+Print n;
+End If
+n = n + 1
+Loop While (n <= 100)
+End Sub

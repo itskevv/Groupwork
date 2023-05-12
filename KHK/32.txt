@@ -1,0 +1,13 @@
+Private Sub Form_activate()
+Dim num(20) As Integer
+For i = 0 To 19
+num(i) = i + 1
+Next i
+
+
+For i = 0 To 19
+Print num(i);
+Next i
+
+End Sub
+

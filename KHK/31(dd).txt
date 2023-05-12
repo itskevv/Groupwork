@@ -1,0 +1,12 @@
+Private Sub Form_activate()
+For i = 8 To 1 Step -1
+    For k = 1 To 9 - i
+    Print " ";
+    Next k
+    For j = 1 To i
+        Print "* ";
+    Next j
+    Print
+    
+Next i
+End Sub

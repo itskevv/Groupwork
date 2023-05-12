@@ -1,0 +1,10 @@
+Private Sub Command1_Click()
+    Dim n As Integer
+    Dim i As Integer
+    For n = 4 To 6
+        For i = 1 To 12
+        ans = n * i
+        List1.AddItem i & "*" & n & "=" & ans
+        Next i
+    Next n
+End Sub

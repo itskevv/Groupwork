@@ -1,0 +1,18 @@
+Private Sub Form_Load()
+Form1.Show
+    
+    Dim i, j As Integer
+    For i = 5 To 1 Step -1
+        
+        For j = 1 To 5 - i
+            Print " ";
+        Next j
+        
+        For j = 1 To 2 * i - 1
+            Print "*";
+        Next j
+        
+        Print
+    Next i
+End Sub
+
