@@ -1,10 +1,14 @@
-Private Sub Command1_Click()
-    Dim n As Integer
-    Dim i As Integer
-    For n = 4 To 6
-        For i = 1 To 12
+Private Sub Form_Load()
+Form1.Show
+Dim n As Integer
+Dim i As Integer
+Dim ans As Integer
+
+For n = 1 To 12
+    For i = 4 To 6
         ans = n * i
-        List1.AddItem i & "*" & n & "=" & ans
-        Next i
-    Next n
+        Print n & "*" & i & "=" & ans & "       ";
+    Next i
+    Print
+Next n
 End Sub
